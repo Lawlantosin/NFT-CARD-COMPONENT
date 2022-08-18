@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+  
+
+
+  body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%) !important;
+    color: white !important;
+    font-family: 'Outfit', sans-serif !important;
+  }
+  .card{
+    background-color: hsl(216, 50%, 16%) !important;
+    margin-top: 200px !important;
+  }
+
+  .card-body p{
+    font-size: 15px !important;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+  }
+
+   .card-body  a{
+       font-weight: 600;
+       color:white;
+       text-decoration: none;
+   }
+
+   .card-body  a:hover{
+    color: hsl(178, 100%, 50%) !important;
+   }
+
+.eth{
+    color: hsl(178, 100%, 50%) !important;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.card-title:hover {
+color: hsl(178, 100%, 50%) !important;
+}
+
+.cardimg a:hover{
+    background-image: url(./images/icon-view.svg) !important;
+background-color: aqua !important;
+    
+}
+
+.cardimg{
+   border-radius: 10px;
+   
+}
+
+.image{
+  position: relative;
+}
+
+.image div{
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 0.6);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+
+}
+
+.image div:hover{
+  opacity: 1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
